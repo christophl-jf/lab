@@ -1,0 +1,13 @@
+xray:
+  enabled: true
+insight:
+  enabled: true
+distribution:
+  enabled: false
+pipelines:
+  enabled: false
+# Enable JAS:
+serviceAccount: 
+  create: true 
+rbac: 
+  create: true
